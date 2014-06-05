@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var done = '<span class="done"></span>'
 	var image = '<span class="image"></span>'
 $( "input" ).keyup(function(event) {
-    var value = $( this ).val();
+    var value = $( this ).val().trim();
     var work = '<li class="new">'+ check + value + image + '</li>';
     if (event.keyCode == 13 && value.length > 0) {
     		$( "ul" ).prepend(work);
