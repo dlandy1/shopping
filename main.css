@@ -42,7 +42,7 @@ p{
 .a1{
 	font-family: "HelveticaNeue-light";
 	font-size: 15px;
-	color: rgba(0, 201, 56, 0.6);
+	color: rgba(0, 201, 56, 0.5);
 }
 li{
 	border: 1px solid rgb(172, 224, 172);
@@ -53,7 +53,7 @@ li{
 	display: none;
 	font-family: "HelveticaNeue-light";
 	font-size: 15px;
-	color: rgba(0, 0, 0, 0.6);
+	color: rgba(255, 0, 0, 0.7);
 }
 
 .done{
