@@ -40,15 +40,20 @@ p{
 	color: rgba(0, 0, 0, 0.6);
 }
 .a1{
+	font-family: "HelveticaNeue-light";
+	font-size: 15px;
 	color: rgb(160, 12, 12);
 }
 li{
 	border: 1px solid rgb(172, 224, 172);
-	margin: 30px 30%;
+	margin: 15px 30%;
 	padding: 5px;
 	border-radius: 20px;
 	background-color: rgba(239, 244, 255, 0.2);
 	display: none;
+	font-family: "HelveticaNeue-light";
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.6);
 }
 
 .done{
@@ -58,6 +63,7 @@ li{
 	width: 15px;
 	height: 20px;
 	float: left;
+	cursor: pointer;
 }
 .check{
 	background-image: url("img/check-mark.png");
@@ -66,6 +72,7 @@ li{
 	width: 15px;
 	height: 13px;
 	float: left;
+	cursor: pointer;
 }
 .image{
 	background-image: url("img/trash.png");
@@ -75,4 +82,5 @@ li{
 	height: 22px;
 	display: inline-block;
 	float: right;
+	cursor: pointer;
 }
